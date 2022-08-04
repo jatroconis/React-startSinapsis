@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import Navigation from './components/navigation/navigation'
 import Test1 from './components/test1/test1'
 import Test2 from './components/test1/test2'
+import Login from './auth/Login'
 import './App.scss'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route path='login' element={<Login/>}/>
           <Route path='/' element={<Navigation/>} >
             <Route path='/test1' element={<Test1/>}/> 
             <Route path='/test1' element={<Test1/>}/> 
