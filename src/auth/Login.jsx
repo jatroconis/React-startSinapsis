@@ -1,5 +1,14 @@
 import './Login.scss'
+import { useNavigate } from "react-router-dom";
+
 const Login = () => {
+
+    let navigate = useNavigate();
+    const routeChange = () => {
+      let path = `/`;
+      navigate(path);
+    }
+
     return(
         <div className="d-flex align-items-center justify-content-center container-login">
             <div className='container-form'>
@@ -19,7 +28,7 @@ const Login = () => {
                         </div>
                     </div>
                     <div className='d-grid gap-2 mt-2 mb-2'>
-                        <button className='btn btn-block btn-success'>Login</button>
+                        <button onClick={routeChange} className='btn btn-block btn-success'>Login</button>
                     </div>
                 </form>
                 <h6 className='text-center'>Or with your google account</h6>

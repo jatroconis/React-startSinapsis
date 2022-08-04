@@ -14,7 +14,6 @@ function App() {
           <Route path='login' element={<Login/>}/>
           <Route path='/' element={<Navigation/>} >
             <Route path='/test1' element={<Test1/>}/> 
-            <Route path='/test1' element={<Test1/>}/> 
             <Route path='/test2' element={<Test2/>}/> 
             {/* {RUTA POR DEFECTO NOT FOUND 404} */}
             <Route path='*' element={<Navigate replace to={'/'}/>}/> 

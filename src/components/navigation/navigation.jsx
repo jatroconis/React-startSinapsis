@@ -10,7 +10,7 @@ import NavigationLink from '../navigation-link/navigation-link'
 const Navigation = () => {
 
   return (
-    <div className="container">
+    <div className="main__container">
         <div className='navigation__container'>
           <div className="navigation__container__profile">
             <ProfileNavigation/>
