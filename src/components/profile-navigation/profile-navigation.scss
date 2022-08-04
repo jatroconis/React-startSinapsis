@@ -1,0 +1,22 @@
+.content__profile-Navigation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    &__profile-image{
+
+        
+        img{
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    &__profile-data{
+        border: 1px solid;
+    }
+}
