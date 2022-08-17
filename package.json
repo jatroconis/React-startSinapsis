@@ -9,15 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@mui/material": "^5.10.0",
     "firebase": "^9.9.2",
-=======
-    "firebase": "^9.9.1",
     "formik": "^2.2.9",
->>>>>>> fbe133f010a62e2c7743a17d2ec2a545b7195d09
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",

@@ -21,3 +21,4 @@ const ProfileNavigation = () => {
     </div>
   )
 }
+export default ProfileNavigation;
