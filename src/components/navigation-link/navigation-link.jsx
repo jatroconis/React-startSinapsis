@@ -5,8 +5,13 @@ import './navigation-link.scss'
 const NavigationLink = () => {
   return (
     <div className="content__navigation-link">
-      <Link to='/test1'> Tesst1</Link>
-      <Link to='/test2'> Test2</Link>
+      <Link to='/users'> Usuarios</Link>
+      <Link to='/test2'> Proveedores</Link>
+      <Link to='/test2'> Productos</Link>
+      <Link to='/test2'> Clientes</Link>
+      <Link to='/test2'> Cotizaciones</Link>
+      <Link to='/test2'> Ordenes de compra</Link>
+      <Link to='/test2'> Facturas</Link>
     </div>
   )
 }   

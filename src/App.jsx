@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import Navigation from './components/navigation/navigation'
-import Test1 from './components/test1/test1'
-import Test2 from './components/test1/test2'
 import Login from './auth/Login'
+import HomeUsers from './components/pages/users/HomeUsers/homeUsers'
+import UserList from './components/pages/users/userList/userList'
+import Home from './components/pages/home/home'
 import './App.scss'
 
 function App() {
@@ -13,8 +14,10 @@ function App() {
         <Routes>
           <Route path='login' element={<Login/>}/>
           <Route path='/' element={<Navigation/>} >
-            <Route path='/test1' element={<Test1/>}/> 
-            <Route path='/test2' element={<Test2/>}/> 
+            <Route path='/home' element={<Home/>}/> 
+            <Route path='/users' element={<UserList/>}/> 
+            <Route path="/add" element={<HomeUsers />} />
+            <Route path="/edit/:id" element={<HomeUsers />} />
             {/* {RUTA POR DEFECTO NOT FOUND 404} */}
             <Route path='*' element={<Navigate replace to={'/'}/>}/> 
           </Route>

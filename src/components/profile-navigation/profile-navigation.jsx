@@ -9,7 +9,7 @@ const ProfileNavigation = () => {
             <img src={ProfileIMG} alt="image" />
         </div>
         <div className="content__profile-Navigation__profile-data">
-            <h3>{"JUAN TROCONIS"}</h3>
+            <h4>{"JUAN TROCONIS"}</h4>
             <p>Administrador</p>
         </div>
     </div>
